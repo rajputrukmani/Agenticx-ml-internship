@@ -1,0 +1,15 @@
+Timestamp,Source_File,Predicted_Emotion,Confidence
+2026-09-24 00:13:11,live_recording.wav,Joy / Happy,91.2%
+2026-09-24 00:13:32,live_recording.wav,Joy / Happy,91.2%
+2026-09-24 00:15:59,live_recording.wav,Joy / Happy,91.2%
+2026-09-24 00:19:17,live_recording.wav,Joy / Happy,91.2%
+2026-09-24 00:19:53,live_recording.wav,Neutral,86.3%
+2026-09-24 18:29:01,live_recording.wav,Anger,94.1%
+2026-09-24 18:29:11,live_recording.wav,Sadness,88.5%
+2026-09-24 18:29:18,live_recording.wav,Neutral,86.3%
+2026-09-24 18:29:25,live_recording.wav,Neutral,86.3%
+2026-09-24 18:29:31,live_recording.wav,Anger,94.1%
+2026-09-24 18:29:37,live_recording.wav,Sadness,88.5%
+2026-09-24 18:29:41,live_recording.wav,Neutral,86.3%
+2026-09-24 18:29:46,live_recording.wav,Joy / Happy,91.2%
+2026-09-24 23:23:46,live_recording.wav,Joy / Happy,91.2%
