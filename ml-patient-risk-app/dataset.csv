@@ -1,0 +1,7 @@
+Age,BMI,Systolic_BP,Glucose,HbA1c,Risk_Level
+15.0,25.0,135.0,110.0,6.2,Moderate
+45.0,28.5,135.0,110.0,6.2,Moderate
+9.0,28.5,135.0,110.0,6.2,Moderate
+13.0,28.5,135.0,110.0,6.2,Moderate
+45.0,28.5,135.0,110.0,6.2,Moderate
+15.0,28.5,135.0,110.0,1.0,Moderate

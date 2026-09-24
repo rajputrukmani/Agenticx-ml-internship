@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Patient Risk Estimator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>ML-Powered Patient Risk Predictor</h1>
+        <form action="/predict" method="POST">
+            <div class="form-group"><label>Age:</label><input type="number" name="age" required value="45"></div>
+            <div class="form-group"><label>BMI:</label><input type="step" name="bmi" required value="28.5"></div>
+            <div class="form-group"><label>Systolic BP:</label><input type="number" name="sysBP" required value="135"></div>
+            <div class="form-group"><label>Fasting Blood Glucose:</label><input type="number" name="fbg" required value="110"></div>
+            <div class="form-group"><label>HbA1c (%):</label><input type="text" name="hba1c" required value="6.2"></div>
+            <button type="submit">Predict via ML Model</button>
+        </form>
+
+        {% if prediction_text %}
+        <div class="result {{ risk_class }}">
+            <h3>{{ prediction_text }}</h3>
+            <p><strong>Key Factors Identified:</strong></p>
+            <ul>
+                {% for factor in factors %}
+                    <li>{{ factor }}</li>
+                {% endfor %}
+            </ul>
+            <p class="disclaimer">Disclaimer: AI-generated estimation. Verify with a medical professional.</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
